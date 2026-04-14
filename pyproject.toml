@@ -3,5 +3,11 @@ name = "assignment"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.8.4",
     "ipykernel>=7.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.17.1",
 ]
